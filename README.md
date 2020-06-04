@@ -18,6 +18,7 @@ Team 14's Project 3
 - Jack - Software Architect
 - McGregor - Software Writer
 - Aleksey - Software Writer
+
 | Date | Objectives | Due Date | Item Due | Tasks |
 |------|------------|----------|----------|-------|
 |2/06/2020| Start the project | 4 June | Testing Code| MS - Tests all installations. Write test cases for team  - 4 June|
