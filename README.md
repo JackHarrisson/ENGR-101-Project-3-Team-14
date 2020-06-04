@@ -23,5 +23,5 @@ X - Software Writer
 |2/06/2020| Start the project | 4 June | Testing Code| MS - Tests all installations. Write test cases for team  - 4 June|
 |      |            |          |          | JH - Ensure Plan is done, Help install SFML on all computers - 4 June| 
 |      |            |          |          | AB - Ensure Robot is built - 4 June|
-|      |            |          |          | JU - Get pictures from robot - June|
-|      |            |          |          | ALL - Complete AVC Plan - June|
+|      |            |          |          | JU - Get pictures from robot - 4 June|
+|      |            |          |          | ALL - Complete AVC Plan - 4 June|
