@@ -1,5 +1,4 @@
 #include "robot.hpp"
-#include "pixel.hpp"
 
 int isWhite(ImagePPM image, int row, int col) {
     if ((int)get_pixel(cameraView, row, col, 3) == 255) {
