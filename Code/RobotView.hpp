@@ -13,13 +13,17 @@ struct Pixel{
         return (luminosity == 255);
     }
 };
+
+
 class RobotView{
 public:
     static Pixel getPixel(int row, int column);
-    static bool rowHasWhitePixels(int rowIndex);
+    static bool hasWhitePixels(std::vector<Pixel> pixels);
     /** Gets the middle pixel from the white blob at row specified by parameter index*/
-    static Pixel getAverageWhitePixel(int rowIndex);
     static std::vector<Pixel> getRow(int rowIndex);
+    static bool hasWhitePath(std::vector<Pixel> pixels);
+    static Pixel averagePixel(std::vector<Pixel> pixels);
+    static std::vector<Pixel> getWhitePixels(std::vector<Pixel> pixels);
 };
 Pixel RobotView::getPixel(int row, int column){
     int red = get_pixel(cameraView,row,column,0);
@@ -29,24 +33,42 @@ Pixel RobotView::getPixel(int row, int column){
     Pixel pixel = Pixel(row,column,red,green,blue,luminosity);
     return pixel;
 }
-bool RobotView::rowHasWhitePixels(int rowIndex){
-    std::vector<Pixel> row = getRow(rowIndex);
-    return std::any_of(row.begin(),row.end(),[](Pixel p){return p.isWhite();});
+bool RobotView::hasWhitePixels(std::vector<Pixel> pixels){
+    return std::any_of(pixels.begin(),pixels.end(),[](Pixel p){return p.isWhite();});
 }
-Pixel RobotView::getAverageWhitePixel(int rowIndex){
-    std::vector<Pixel> row = getRow(rowIndex);
-    double columnSum = 0.0;
-    int whitePixels = 0;
-    for (Pixel pixel:row){
-        if (pixel.isWhite()){
-            columnSum+=pixel.column;
-            whitePixels++;
+/**Checks if parameter group of pixels has a white path*/
+bool RobotView::hasWhitePath(std::vector<Pixel> pixels){
+    bool hasWhitePixel = false;
+    //checks if the group of white pixels actually ends
+    //- needed to prevent false positives
+    bool blobEnds = false;
+    for (Pixel& pixel:pixels){
+        if (pixel.isWhite())
+            hasWhitePixel=true;
+        else if (hasWhitePixel) {
+            blobEnds = true;
+            return true;
         }
     }
-    int averageColumn = (int)(columnSum/whitePixels);
-    Pixel averageWhitePixel = getPixel(rowIndex,averageColumn);
-    return averageWhitePixel;
+    return false;
 }
+std::vector<Pixel> RobotView::getWhitePixels(std::vector<Pixel> pixels){
+    std::vector<Pixel> whitePixels;
+    std::copy_if(pixels.begin(),pixels.end(),std::back_inserter(whitePixels),[](Pixel p){return p.isWhite();});
+    return whitePixels;
+}
+Pixel RobotView::averagePixel(std::vector<Pixel> pixels){
+    double columnSum = 0.0;
+    double rowSum =0.0;
+    for (Pixel pixel:pixels){
+        columnSum+=pixel.column;
+        rowSum+=pixel.row;
+    }
+    int averageRow = (int)(rowSum/pixels.size());
+    int averageColumn = (int)(columnSum/pixels.size());
+    return getPixel(averageRow,averageColumn);
+}
+
 std::vector<Pixel> RobotView::getRow(int rowIndex){
     std::vector<Pixel> pixels;
     for (int column =0;column<cameraView.width;column++)
