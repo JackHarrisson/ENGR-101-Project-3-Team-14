@@ -1,19 +1,9 @@
 class RobotMovement{
-private:
-    /**
-    * Gets the error between middle of the row and middle of the white pixel
-    */
-    double getErrorFromWhitePixel(int rowIndex);
 public:
     void followLine();
     void regulateMotor();
-
 };
-double RobotMovement::getErrorFromWhitePixel(int rowIndex){
-    Pixel averageWhitePixel = RobotView::getAverageWhitePixel(rowIndex);
-    int centralColumn = (int)(cameraView.width/2.0);
-    return averageWhitePixel.column-centralColumn;
-}
+
 void RobotMovement::followLine(){
     regulateMotor();
 }
@@ -22,11 +12,15 @@ void RobotMovement::regulateMotor(){
     const double kp = 0.4; //constant coefficient for error
     double error;
     int bottomRowIndex = cameraView.height-1;
-    if (!RobotView::rowHasWhitePixels(bottomRowIndex)){
+    std::vector<Pixel> bottomRow = RobotView::getRow(bottomRowIndex);
+    if (!RobotView::hasWhitePixels(bottomRow)){
         //if there are no white pixels
         error = 0;
     }else{
-        error = getErrorFromWhitePixel(bottomRowIndex);
+        Pixel averageWhitePixel = RobotView::averagePixel(RobotView::getWhitePixels(bottomRow));
+        std::cout<<"White pixels"<<std::endl;
+        int middleColumn = (int)(cameraView.width/2.0);
+        error = averageWhitePixel.column-middleColumn;
     }
     std::cout<<"Error: " << error <<std::endl;
     double speedDifference = kp*error;
