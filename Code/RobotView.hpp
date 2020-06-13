@@ -9,11 +9,13 @@ struct Pixel{
         this->blue=blue;
         this->luminosity=luminosity;
     }
+    Pixel(){
+    }
     bool isWhite() const{
         return (luminosity == 255);
     }
-};
 
+};
 
 class RobotView{
 public:
@@ -21,10 +23,14 @@ public:
     static bool hasWhitePixels(std::vector<Pixel> pixels);
     /** Gets the middle pixel from the white blob at row specified by parameter index*/
     static std::vector<Pixel> getRow(int rowIndex);
+    static std::vector<Pixel> getColumn(int columnIndex);
     static bool hasWhitePath(std::vector<Pixel> pixels);
     static Pixel averagePixel(std::vector<Pixel> pixels);
     static std::vector<Pixel> getWhitePixels(std::vector<Pixel> pixels);
-    static double getRowWhiteness(std::vector<Pixel> pix);
+    static int rowsBetweenPixel(Pixel pixel); //the rows between centre of robot, and parameter in-view pixel
+    static std::vector<Pixel> getLeftEdge();
+    static std::vector<Pixel> getRightEdge();
+
 };
 Pixel RobotView::getPixel(int row, int column){
     int red = get_pixel(cameraView,row,column,0);
@@ -34,9 +40,11 @@ Pixel RobotView::getPixel(int row, int column){
     Pixel pixel = Pixel(row,column,red,green,blue,luminosity);
     return pixel;
 }
+
 bool RobotView::hasWhitePixels(std::vector<Pixel> pixels){
     return std::any_of(pixels.begin(),pixels.end(),[](Pixel p){return p.isWhite();});
 }
+
 /**Checks if parameter group of pixels has a white path*/
 bool RobotView::hasWhitePath(std::vector<Pixel> pixels){
     bool hasWhitePixel = false;
@@ -53,6 +61,7 @@ bool RobotView::hasWhitePath(std::vector<Pixel> pixels){
     }
     return false;
 }
+
 std::vector<Pixel> RobotView::getWhitePixels(std::vector<Pixel> pixels){
     std::vector<Pixel> whitePixels;
     std::copy_if(pixels.begin(),pixels.end(),std::back_inserter(whitePixels),[](Pixel p){return p.isWhite();});
@@ -70,21 +79,26 @@ Pixel RobotView::averagePixel(std::vector<Pixel> pixels){
     return getPixel(averageRow,averageColumn);
 }
 
+std::vector<Pixel> RobotView::getLeftEdge() {
+    return getColumn(0);
+}
+std::vector<Pixel> RobotView::getRightEdge() {
+    return getColumn(cameraView.width-1);
+}
 std::vector<Pixel> RobotView::getRow(int rowIndex){
     std::vector<Pixel> pixels;
     for (int column =0;column<cameraView.width;column++)
         pixels.emplace_back(getPixel(rowIndex,column));
     return pixels;
 }
-
-double RobotView::getRowWhiteness(std::vector<Pixel> pix) {
-    double whiteness;
-    double whitePix = 0;
-    for (int p = 0; p < pix.size(); p++) {
-        if (pix[p].Pixel::isWhite()) {
-            whitePix++;
-        }
-    }
-    whiteness = whitePix*1.0/pix.size();
-    return whiteness;
+std::vector<Pixel> RobotView::getColumn(int columnIndex){
+    std::vector<Pixel> pixels;
+    for (int row =0;row<cameraView.height;row++)
+        pixels.emplace_back(getPixel(row,columnIndex));
+    return pixels;
+}
+int RobotView::rowsBetweenPixel(Pixel pixel) {
+    const int CAMERA_FORWARD = 100; //distance between robot centre and centre of camera FoV
+    int distanceFromFoV = (int)(CAMERA_FORWARD - cameraView.height/2.0); //distance between robot centre and bottom edge
+    return (distanceFromFoV)+(cameraView.height-pixel.row);
 }
