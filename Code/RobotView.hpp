@@ -24,6 +24,7 @@ public:
     static bool hasWhitePath(std::vector<Pixel> pixels);
     static Pixel averagePixel(std::vector<Pixel> pixels);
     static std::vector<Pixel> getWhitePixels(std::vector<Pixel> pixels);
+    static double getRowWhiteness(std::vector<Pixel> pix);
 };
 Pixel RobotView::getPixel(int row, int column){
     int red = get_pixel(cameraView,row,column,0);
@@ -74,4 +75,16 @@ std::vector<Pixel> RobotView::getRow(int rowIndex){
     for (int column =0;column<cameraView.width;column++)
         pixels.emplace_back(getPixel(rowIndex,column));
     return pixels;
+}
+
+double RobotView::getRowWhiteness(std::vector<Pixel> pix) {
+    double whiteness;
+    double whitePix = 0;
+    for (int p = 0; p < pix.size(); p++) {
+        if (pix[p].Pixel::isWhite()) {
+            whitePix++;
+        }
+    }
+    whiteness = whitePix*1.0/pix.size();
+    return whiteness;
 }
