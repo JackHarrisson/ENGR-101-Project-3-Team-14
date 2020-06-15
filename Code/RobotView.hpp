@@ -1,4 +1,3 @@
-
 struct Pixel{
     int row, column,red,green,blue,luminosity;
     Pixel(int row,int column,int red,int green,int blue,int luminosity){
@@ -14,7 +13,6 @@ struct Pixel{
     bool isWhite() const{
         return (luminosity == 255);
     }
-
 };
 
 class RobotView{
@@ -30,7 +28,6 @@ public:
     static int rowsBetweenPixel(Pixel pixel); //the rows between centre of robot, and parameter in-view pixel
     static std::vector<Pixel> getLeftEdge();
     static std::vector<Pixel> getRightEdge();
-
 };
 Pixel RobotView::getPixel(int row, int column){
     int red = get_pixel(cameraView,row,column,0);
@@ -44,6 +41,7 @@ Pixel RobotView::getPixel(int row, int column){
 bool RobotView::hasWhitePixels(std::vector<Pixel> pixels){
     return std::any_of(pixels.begin(),pixels.end(),[](Pixel p){return p.isWhite();});
 }
+
 
 /**Checks if parameter group of pixels has a white path*/
 bool RobotView::hasWhitePath(std::vector<Pixel> pixels){
@@ -67,6 +65,7 @@ std::vector<Pixel> RobotView::getWhitePixels(std::vector<Pixel> pixels){
     std::copy_if(pixels.begin(),pixels.end(),std::back_inserter(whitePixels),[](Pixel p){return p.isWhite();});
     return whitePixels;
 }
+
 Pixel RobotView::averagePixel(std::vector<Pixel> pixels){
     double columnSum = 0.0;
     double rowSum =0.0;
@@ -97,8 +96,10 @@ std::vector<Pixel> RobotView::getColumn(int columnIndex){
         pixels.emplace_back(getPixel(row,columnIndex));
     return pixels;
 }
+
 int RobotView::rowsBetweenPixel(Pixel pixel) {
     const int CAMERA_FORWARD = 100; //distance between robot centre and centre of camera FoV
     int distanceFromFoV = (int)(CAMERA_FORWARD - cameraView.height/2.0); //distance between robot centre and bottom edge
     return (distanceFromFoV)+(cameraView.height-pixel.row);
 }
+
