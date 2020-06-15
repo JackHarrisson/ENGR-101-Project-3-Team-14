@@ -14,7 +14,6 @@ int main(){
         return -1;
     }
     std::string fileName = "i0.ppm";
-    usleep(3000000);
     while(true){
         takePicture();
         SavePPMFile(fileName,cameraView);
@@ -22,4 +21,6 @@ int main(){
         robotMovement.doCompletion();
         usleep(10000);
     } //while
+
 } // main
+
