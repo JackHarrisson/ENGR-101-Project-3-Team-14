@@ -44,6 +44,7 @@ void RobotMovement::doCompletion() {
 void RobotMovement::goTo(int distance) {
     double motorSpeed = (distance*180.0)/(M_PI*WHEEL_RADIUS); //the motor speed needed to be able to travel parameter distance in one tick
     setMotors(motorSpeed,motorSpeed);
+    setMotors(0,0);
 }
 void RobotMovement::followLine(){
     regulateMotor();
