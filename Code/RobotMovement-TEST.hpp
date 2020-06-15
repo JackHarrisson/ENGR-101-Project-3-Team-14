@@ -35,29 +35,7 @@ void RobotMovement::initialise(){
     moveDistance(150);
     initialised = true;
 }
-void RobotMovement::turnCheck() {
-	int bottomRowIndex = cameraView.height-1;
-	
-	std::vector<unsigned char> bottomRowRedValues; //red values of bottom row
-	std::vector<Pixel> bottomRow = RobotView::getRow(bottomRowIndex);
-	
-	for (int col =0;col<cameraView.width;col++){
-		unsigned char redValue = get_pixel(cameraView,bottomRowIndex,col,0);
-		bottomRowRedValues.push_back(redValue);
-    }
-    
-    std::cout<<"Has Red Pixels: "<<RobotView::hasRedPixels(bottomRow)<<std::endl;
-    if (std::none_of(bottomRowRedValues.begin(),bottomRowRedValues.end(),[](unsigned char val){return val == 255;})){
-		setMotors(0,0);
-        std::cout<<"----------------------"<<std::endl;
-        for (int i=0;i<bottomRow.size();i++){
-            std::cout<<"Column " << i<<": ("<<bottomRow[i].red<<", "<<bottomRow[i].green<<", "<<bottomRow[i].blue<<", "<<bottomRow[i].luminosity<<")"<<std::endl;
-        }
-        std::cout<<"----------------------"<<std::endl;
-        usleep(99999999);
-    }
-    setMotors(speed,speed);
-}
+
 
 void RobotMovement::turnAroundWall(){
     moveDistance(160);
