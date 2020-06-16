@@ -40,7 +40,7 @@ void RobotMovement::doChallenge(){
         turnCheck();
 }
 void RobotMovement::initialise(){
-    goTo(160); //moves 300 pixels
+    goTo(160);
     initialised = true;
 }
 
