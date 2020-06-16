@@ -13,12 +13,17 @@ struct Pixel{
     bool isWhite() const{
         return (luminosity == 255);
     }
+    bool isRed() const{
+        return (red == 255 && green!=255 && blue!=255);
+    }
+
 };
 
 class RobotView{
 public:
     static Pixel getPixel(int row, int column);
     static bool hasWhitePixels(std::vector<Pixel> pixels);
+    static bool hasRedPixels(std::vector<Pixel> pixels);
     /** Gets the middle pixel from the white blob at row specified by parameter index*/
     static std::vector<Pixel> getRow(int rowIndex);
     static std::vector<Pixel> getColumn(int columnIndex);
@@ -41,19 +46,19 @@ Pixel RobotView::getPixel(int row, int column){
 bool RobotView::hasWhitePixels(std::vector<Pixel> pixels){
     return std::any_of(pixels.begin(),pixels.end(),[](Pixel p){return p.isWhite();});
 }
-
+bool RobotView::hasRedPixels(std::vector<Pixel> pixels){
+    return std::any_of(pixels.begin(),pixels.end(),[](Pixel p){return p.isRed();});
+}
 
 /**Checks if parameter group of pixels has a white path*/
 bool RobotView::hasWhitePath(std::vector<Pixel> pixels){
     bool hasWhitePixel = false;
     //checks if the group of white pixels actually ends
     //- needed to prevent false positives
-    bool blobEnds = false;
     for (Pixel& pixel:pixels){
         if (pixel.isWhite())
             hasWhitePixel=true;
         else if (hasWhitePixel) {
-            blobEnds = true;
             return true;
         }
     }
@@ -65,7 +70,6 @@ std::vector<Pixel> RobotView::getWhitePixels(std::vector<Pixel> pixels){
     std::copy_if(pixels.begin(),pixels.end(),std::back_inserter(whitePixels),[](Pixel p){return p.isWhite();});
     return whitePixels;
 }
-
 Pixel RobotView::averagePixel(std::vector<Pixel> pixels){
     double columnSum = 0.0;
     double rowSum =0.0;
@@ -96,10 +100,8 @@ std::vector<Pixel> RobotView::getColumn(int columnIndex){
         pixels.emplace_back(getPixel(row,columnIndex));
     return pixels;
 }
-
 int RobotView::rowsBetweenPixel(Pixel pixel) {
     const int CAMERA_FORWARD = 100; //distance between robot centre and centre of camera FoV
     int distanceFromFoV = (int)(CAMERA_FORWARD - cameraView.height/2.0); //distance between robot centre and bottom edge
     return (distanceFromFoV)+(cameraView.height-pixel.row);
 }
-
