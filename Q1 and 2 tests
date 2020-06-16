@@ -1,0 +1,33 @@
+Q1 test
+Testing for the core of the project
+
+We have two versions of the core project currently uploaded to the Github, by both Jamie and Alek, 
+Jamie's code is about 83 lines long and is contained within the robot.cpp file, it works by
+checking how many non white pixels should be on each side of the white line, and adjusts its movement  to compensate.
+Jamie's code is able to complete the core part of the maze, although is slow and jittery, and increasing the
+speed only makes it swerve more.
+
+Alek’s code is split up into multiple parts, as he has split the code up into his main robot.cpp and 2 hpp files, 
+RobotMovement.hpp and RobotView.hpp. The RobotView.hpp gets the pixels that the robot sees, and the RobotMovement.hpp moves the robot.
+Alek’s code seems to be far more accurate than Jamie and the robot is able to move faster without swerving all over the white line 
+
+Both Jame and Aleks Robots were able to make it to the finish line making the Q1 tests a success
+
+
+Q2 test
+Alek has uploaded multiple files for the completion portion of the project, he has uploaded
+a “robot.cpp”,”RobotMovement.hpp”,”RobotView.hpp”, and 
+“ main_completion.cpp” but I have not been able to get the main_completion.cpp file to work, 
+I keep getting an error stating “ “./main_completion” ‘ is not recognized as an internal or 
+external command, operable program or batch file.” ( this problem was solved by renaming the file to robot.cpp 
+and disregarding the other robot.cpp file)
+
+Running the code on the completion track the robot seems to move in 
+fairly straight lines and snaps to different angles when it comes to a 
+corner, but when it gets to the end of the track, turns off the white line 
+and moves towards the bottom-right hand side of the screen
+
+
+
+So far the completion portion of the project is unsuccessful and we are working on fixing it up,
+I have also sent in an email to ask whether it is ok for the robot to be snapping in the direction it wants to go.
