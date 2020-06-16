@@ -3,24 +3,29 @@
 #include "RobotView.hpp"
 #include "RobotMovement.hpp"
 
-int main(){
-    cameraView.width = 150;
-    cameraView.height = 100;
-    cameraView.data = new char[cameraView.width * cameraView.height*3];
-    cameraView.n_bytes = cameraView.width * cameraView.height*3;
-    RobotMovement robotMovement{};
+int promptTask(){
+    int taskType;
+    std::cout<<"---CHOOSE TASK---"<<std::endl;
+    std::cout<<"Enter '1' for Core"<<std::endl;
+    std::cout<<"Enter '2' for Completion"<<std::endl;
+    std::cout<<"Enter '3' for Challenge"<<std::endl;
+    std::cout<<"Task: ";
+    std::cin >> taskType;
+    return taskType;
+}
 
-    if (connectNetwork()!=0){
-        return -1;
+int main(){
+    if (initClientRobot() != 0){
+        std::cout<<"Error initializing robot"<<std::endl;
     }
-    std::string fileName = "i0.ppm";
+    RobotMovement robotMovement{};
+    int taskType = promptTask();
     while(true){
         takePicture();
-        SavePPMFile(fileName,cameraView);
-        OpenPPMFile(fileName, cameraView);
-        robotMovement.followLine();
+        robotMovement.doTask(taskType);
         usleep(10000);
     } //while
 
 } // main
+
 
