@@ -70,8 +70,14 @@ void RobotMovement::turnCheck(){
 void RobotMovement::turnAroundWall(){
     moveDistance(80);
     turnLeft();
-    moveDistance(80);
-    turnLeft();
+    std::vector<Pixel> bottomRow = RobotView::getRow(cameraView.height-1);
+    std::vector<Pixel> bottomRowLeft;
+    std::copy_if(bottomRow.begin(),bottomRow.end(),std::back_inserter(bottomRowLeft),
+                 [](Pixel p){return p.column < cameraView.width/2;});
+    if (!RobotView::hasRedPixels(bottomRowLeft)){
+        moveDistance(80);
+        turnLeft();
+    }
 }
 void RobotMovement::moveDistance(double distance){
     double motorSpeed = speed;
