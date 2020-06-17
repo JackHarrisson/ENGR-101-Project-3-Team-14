@@ -45,7 +45,7 @@ GitHub: <https://github.com/JackHarrisson/ENGR-101-Project-3-Team-14>
 
 1. Install Geany [Here](https://www.geany.org/download/releases/).
 2. Download the correct version of SFML from [Here](https://www.sfml-dev.org/download/sfml/2.5.1/). Select the MinGW version.
-3. Download the Robot CPP and the Server HPP file from the GitHub.
+3. Download all the code from the "Code" file on the GitHub.
 4. Unzip the SFML file into C/SFML.
 5. Create A folder for the project.
 6. Download the **makefile** (You may have to modify the INCLUDE and LIBS lines to fit your install).
@@ -54,3 +54,4 @@ GitHub: <https://github.com/JackHarrisson/ENGR-101-Project-3-Team-14>
 9. Copy all **dll** files from the SFML file into the project file.
 10. Instead of **Compile**, **Build** and **Run** select **make** from Geany menu.
 11. **make** then **execute** Server.hpp first and then do the same to Robot.cpp
+12. Once you **execute** Robot.cpp it will promt you to enter "1" for Core, "2" for Completion or "3" for Challenge.
