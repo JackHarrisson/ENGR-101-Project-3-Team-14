@@ -1,0 +1,1041 @@
+//- Usernames
+// Typhlosion51: Jamie U
+// Silverfox: Jack Harrisson
+// McGregor: McGregor Smith
+// This PC: Aleksey Belov
+
+==============================================================
+Guild: Direct Messages
+Channel: Group / Team 14
+==============================================================
+
+[27-May-20 12:08 PM] Typhlosion51#0101
+Added a recipient.
+
+[27-May-20 12:11 PM] Typhlosion51#0101
+Changed the channel name.
+
+[29-May-20 05:32 PM] Typhlosion51#0101
+Added a recipient.
+
+[29-May-20 05:33 PM] Typhlosion51#0101
+Aight we're all here
+
+[02-Jun-20 06:59 PM] McGregor#3649
+so when do you guys wanna start this thing
+
+[02-Jun-20 06:59 PM] McGregor#3649
+cause im pretty sure we're gonna get marked on our logs on the 4th
+
+[02-Jun-20 07:01 PM] Silverfox#8518
+We could have a call tonight and start working on the plan
+
+[02-Jun-20 07:01 PM] Silverfox#8518
+get some stuff layed out
+
+[02-Jun-20 07:01 PM] McGregor#3649
+yeah im good with that
+
+[02-Jun-20 07:03 PM] Typhlosion51#0101
+Yeah sure
+What time works for you guys?
+
+[02-Jun-20 07:04 PM] Silverfox#8518
+Anytime after 8
+
+[02-Jun-20 07:04 PM] McGregor#3649
+same
+
+[02-Jun-20 07:06 PM] Typhlosion51#0101
+Is 8:30 ok?
+
+[02-Jun-20 07:07 PM] Silverfox#8518
+Yep sounds good
+
+[02-Jun-20 07:07 PM] McGregor#3649
+good for me
+
+[02-Jun-20 08:26 PM] Typhlosion51#0101
+Computer is having technical difficulties
+I might be a bit 😬
+
+[02-Jun-20 08:26 PM] Silverfox#8518
+Algood
+
+[02-Jun-20 08:44 PM] Typhlosion51#0101
+Aight ready when you guys are
+
+[02-Jun-20 08:48 PM] Silverfox#8518
+Yeah im ready
+
+[02-Jun-20 08:48 PM] This PC#3017
+I’m ready
+
+[02-Jun-20 08:49 PM] Typhlosion51#0101
+Started a call.
+
+[02-Jun-20 08:50 PM] Silverfox#8518
+
+{Attachments}
+https://cdn.discordapp.com/attachments/714993347491790921/717299082598809681/plan.doc
+
+[02-Jun-20 08:50 PM] Typhlosion51#0101
+AvoCada - my GitHub
+
+[02-Jun-20 08:52 PM] McGregor#3649
+I'm ready
+
+[02-Jun-20 08:54 PM] Typhlosion51#0101
+Jamie U - uujami@myvuw.ac.nz
+
+[02-Jun-20 08:54 PM] McGregor#3649
+McGregor Smith
+mcgregor.ms@hotmail.com
+
+[02-Jun-20 08:55 PM] This PC#3017
+Aleksey Belov
+
+[02-Jun-20 08:55 PM] This PC#3017
+belovalek@myvuw.ac.nz
+
+[02-Jun-20 08:57 PM] Silverfox#8518
+X - Project Manager (organising team meetings, reporting regularly on progress)
+
+X - Software Architect (writing core code and extending functionality)
+
+X - Software writing, testing and documentation (debugging software and committing to
+git, writing test cases and documenting performance against milestones)
+
+X - Software writing, testing and documentation (debugging software and committing to
+git, writing test cases and documenting performance against milestones)
+
+[02-Jun-20 09:00 PM] Silverfox#8518
+https://ecs.wgtn.ac.nz/foswiki/pub/Courses/ENGR101_2020T1/Project3/AVC_Win10.zip
+
+[02-Jun-20 09:02 PM] Silverfox#8518
+X - Tests all insatllations. Write test cases for the team
+
+X- Ensures Plan is done.
+Help to install SFML on all team computers
+X- Ensure Robot is built
+X- Get/save pictures from the
+
+[02-Jun-20 09:05 PM] Silverfox#8518
+X - Tests all insatllations. Write test cases for the team
+
+[02-Jun-20 09:09 PM] McGregor#3649
+made a git Hub
+
+[02-Jun-20 09:09 PM] McGregor#3649
+its just McGregorSmith
+
+[02-Jun-20 09:10 PM] Silverfox#8518
+Sweet i invited you
+
+[02-Jun-20 09:13 PM] McGregor#3649
+ty 🙂
+
+[02-Jun-20 09:15 PM] This PC#3017
+I’ve also made a github “Alek-Bel”
+
+[03-Jun-20 11:49 AM] Typhlosion51#0101
+Anyone got it to work?
+
+[03-Jun-20 01:31 PM] McGregor#3649
+not yet
+
+[03-Jun-20 04:19 PM] Silverfox#8518
+Just got mine to work
+
+[03-Jun-20 04:19 PM] Silverfox#8518
+I recommend going to the labs tomorrow
+
+[03-Jun-20 04:20 PM] Typhlosion51#0101
+I went to the lab today but the tutor wasn't familiar with CLion
+I might just use Visual Studio if I can get that to work :/
+
+[03-Jun-20 04:30 PM] McGregor#3649
+Yeah visual studio might be the way to go
+
+[03-Jun-20 04:30 PM] McGregor#3649
+I havent been able to get it to work with geany
+
+[03-Jun-20 05:19 PM] Typhlosion51#0101
+Wait a second y'all
+Do we all need to use the same IDE/compiler
+
+[03-Jun-20 05:20 PM] Silverfox#8518
+I'm not too sure
+
+[03-Jun-20 05:20 PM] Silverfox#8518
+i don't think it'll matter
+
+[03-Jun-20 05:20 PM] Typhlosion51#0101
+Aight hopefully it'll be ok
+
+[03-Jun-20 08:07 PM] Typhlosion51#0101
+Call again tonight?
+
+[03-Jun-20 08:10 PM] McGregor#3649
+Somethings come up so I wont be able to join a call tonight
+
+[03-Jun-20 08:11 PM] Typhlosion51#0101
+👍
+
+[04-Jun-20 12:43 AM] Typhlosion51#0101
+Aight seems like  the logs will be looked at in the evening
+
+[04-Jun-20 03:57 PM] McGregor#3649
+so has everyone been able to get it working?
+
+[04-Jun-20 03:58 PM] This PC#3017
+I tried for visual studio but kept on getting linking errors
+
+[04-Jun-20 03:58 PM] This PC#3017
+Arthur didn’t know what to do either
+
+[04-Jun-20 03:58 PM] Typhlosion51#0101
+I have managed to get it working on CLion
+
+[04-Jun-20 03:59 PM] This PC#3017
+@Typhlosion51 How did you do it?
+
+[04-Jun-20 03:59 PM] Typhlosion51#0101
+I followed ProRedCat's guide in the Discord server
+
+[04-Jun-20 03:59 PM] Typhlosion51#0101
+It's updated and pinned now
+
+[04-Jun-20 03:59 PM] Typhlosion51#0101
+In #engr-101
+
+[04-Jun-20 04:00 PM] This PC#3017
+Ok thanks
+
+[04-Jun-20 04:03 PM] McGregor#3649
+I followed that geany tutorial on the ecs but I keep getting an error with the make file
+
+[04-Jun-20 04:04 PM] Typhlosion51#0101
+Can you post here the exact error?
+
+[04-Jun-20 04:04 PM] Typhlosion51#0101
+And also show what your file structure looks like?
+
+[04-Jun-20 04:05 PM] McGregor#3649
+Yeah ok in a sec
+
+[04-Jun-20 04:05 PM] McGregor#3649
+I've been forced into a floor meeting
+
+[04-Jun-20 04:06 PM] Typhlosion51#0101
+Yep
+
+[04-Jun-20 04:19 PM] McGregor#3649
+makefile:4: *** missing separator.  Stop.
+
+[04-Jun-20 04:19 PM] McGregor#3649
+this is the error im getting
+
+[04-Jun-20 04:19 PM] McGregor#3649
+
+{Attachments}
+https://cdn.discordapp.com/attachments/714993347491790921/717955743290097755/unknown.png
+
+[04-Jun-20 04:20 PM] McGregor#3649
+apparently its from having spaces instead of tabs
+
+[04-Jun-20 04:20 PM] McGregor#3649
+but I already put in the tabs and im stil lgetting the asme message
+
+[04-Jun-20 04:24 PM] Typhlosion51#0101
+Still an error on that line, with tabs?
+
+[04-Jun-20 04:25 PM] Typhlosion51#0101
+And have you tried using the attachment at the bottom of the project page https://ecs.wgtn.ac.nz/foswiki/pub/Courses/ENGR101_2020T1/Project3/makefile
+Idk if that'll fix it
+
+[04-Jun-20 04:30 PM] McGregor#3649
+yeah nah still the same
+
+[04-Jun-20 04:31 PM] McGregor#3649
+weirdly enough the problem is apparently only with line 4
+
+[04-Jun-20 04:31 PM] McGregor#3649
+like even if I move the code all down by one
+
+[04-Jun-20 04:36 PM] Typhlosion51#0101
+With CLion, it will ask you to reload the project if you make changes. Maybe Geany is similar, and you have to reload, or reopen the project as a new project? I dunno. Sorry, I haven't used Geany
+
+[04-Jun-20 04:36 PM] McGregor#3649
+oh
+
+[04-Jun-20 04:36 PM] McGregor#3649
+that did something
+
+[04-Jun-20 04:43 PM] McGregor#3649
+ok I got it working
+
+[04-Jun-20 04:44 PM] McGregor#3649
+cant believe all I had to do was reopen it
+
+[04-Jun-20 04:45 PM] McGregor#3649
+so what do yall want me to do for the test cases?
+
+[04-Jun-20 04:53 PM] Typhlosion51#0101
+Nice
+I'm not really sure what writing test cases means
+
+[04-Jun-20 04:53 PM] McGregor#3649
+pretty sure its just a testing template
+
+[04-Jun-20 04:54 PM] McGregor#3649
+like "check if the makefiles works as intended"
+
+[04-Jun-20 04:54 PM] McGregor#3649
+then listing what the expected result is
+
+[04-Jun-20 04:54 PM] McGregor#3649
+then the actual result
+
+[04-Jun-20 04:54 PM] McGregor#3649
+I think
+
+[04-Jun-20 04:55 PM] Typhlosion51#0101
+That sounds about right
+
+[04-Jun-20 04:55 PM] McGregor#3649
+gonna slam out a table then get the results from yall
+
+[04-Jun-20 04:55 PM] Typhlosion51#0101
+Aight
+
+[04-Jun-20 05:03 PM] McGregor#3649
+you've got it all working right @Silverfox ?
+
+[04-Jun-20 05:03 PM] Silverfox#8518
+yeah ive got everything sorted
+
+[04-Jun-20 05:04 PM] McGregor#3649
+sweet
+
+[04-Jun-20 05:04 PM] Silverfox#8518
+i set up the readme if you guys wanna have a look
+
+[04-Jun-20 05:04 PM] Silverfox#8518
+see if theres anything i should add
+
+[04-Jun-20 05:04 PM] McGregor#3649
+I've just made a simple test case to check whether the makefiles, the robot.cpp and the server3.cpp are working as intended
+
+[04-Jun-20 05:04 PM] McGregor#3649
+so i'll just write down that you've got em all sorted
+
+[04-Jun-20 05:06 PM] McGregor#3649
+@This PC you managed to get it working with Clion?
+
+[04-Jun-20 05:06 PM] Silverfox#8518
+Sweet
+
+[04-Jun-20 05:06 PM] Silverfox#8518
+should we upload the test cases and the photos to the GitHub?
+
+[04-Jun-20 05:06 PM] McGregor#3649
+yeah I think so
+
+[04-Jun-20 05:06 PM] McGregor#3649
+thats where we're getiing marked for today
+
+[04-Jun-20 05:07 PM] Silverfox#8518
+Sweet
+
+[04-Jun-20 05:07 PM] McGregor#3649
+so it'll be best to put as much as we can on there
+
+[04-Jun-20 05:07 PM] Typhlosion51#0101
+Yep
+
+[04-Jun-20 05:07 PM] Silverfox#8518
+Sweet the photos are uo
+
+[04-Jun-20 05:08 PM] Silverfox#8518
+up*
+
+[04-Jun-20 05:08 PM] Silverfox#8518
+they look good
+
+[04-Jun-20 05:08 PM] Typhlosion51#0101
+Ah, I think we need to have all the dated milestones in the README
+
+{Attachments}
+https://cdn.discordapp.com/attachments/714993347491790921/717968039764688956/unknown.png
+
+[04-Jun-20 05:09 PM] McGregor#3649
+milestones aint too hard to jot down right?
+
+[04-Jun-20 05:09 PM] Typhlosion51#0101
+Also, we should probably at least put our names down for the roles, even if we don't stick to those roles
+
+[04-Jun-20 05:09 PM] Silverfox#8518
+Yeah agreed
+
+[04-Jun-20 05:09 PM] Typhlosion51#0101
+Yeah pretty sure it's just the milestones in the plan doc
+
+[04-Jun-20 05:09 PM] Typhlosion51#0101
+And I guess edit them to be more specific about time?
+
+[04-Jun-20 05:10 PM] Silverfox#8518
+so edit the tasks?
+
+[04-Jun-20 05:10 PM] Silverfox#8518
+or add a new heading called "milestones"
+
+[04-Jun-20 05:10 PM] Typhlosion51#0101
+> so edit the tasks?
+@Silverfox Yep
+
+[04-Jun-20 05:12 PM] Typhlosion51#0101
+Also I believe Aleksey's email should have 'myvuw' instead of 'myvus'?
+
+[04-Jun-20 05:12 PM] Typhlosion51#0101
+Small typo
+
+[04-Jun-20 05:12 PM] Silverfox#8518
+so add the dates they were completed or the week they are in?
+
+[04-Jun-20 05:12 PM] Silverfox#8518
+> Also I believe Aleksey's email should have 'myvuw' instead of 'myvus'?
+@Typhlosion51  fixed, thanks
+
+[04-Jun-20 05:13 PM] Typhlosion51#0101
+In my opinion we should have due dates, not weeks
+
+[04-Jun-20 05:13 PM] Silverfox#8518
+Yeah sounds good to me
+
+[04-Jun-20 05:15 PM] McGregor#3649
+crap
+
+[04-Jun-20 05:15 PM] McGregor#3649
+forgot the rename the file lmao
+
+[04-Jun-20 05:16 PM] Silverfox#8518
+algood
+
+[04-Jun-20 05:16 PM] Silverfox#8518
+what roles should we do?
+
+[04-Jun-20 05:16 PM] Silverfox#8518
+it dosen't really matter
+
+[04-Jun-20 05:16 PM] McGregor#3649
+chuck me down for anything
+
+[04-Jun-20 05:16 PM] Silverfox#8518
+But does anyone have any preferance
+
+[04-Jun-20 05:16 PM] McGregor#3649
+I'll take writer then
+
+[04-Jun-20 05:18 PM] Silverfox#8518
+Sweet, Anyone else?
+
+[04-Jun-20 05:19 PM] Typhlosion51#0101
+Slight preference for not writer, haha
+I don't really mind though
+
+[04-Jun-20 05:19 PM] Silverfox#8518
+i'll go anything
+
+[04-Jun-20 05:19 PM] Silverfox#8518
+would you prefer manager or architect?
+
+[04-Jun-20 05:21 PM] Typhlosion51#0101
+Manager, why not
+
+[04-Jun-20 05:23 PM] Silverfox#8518
+sweet
+
+[04-Jun-20 05:24 PM] Silverfox#8518
+I'll put Aleksey down as a writer
+
+[04-Jun-20 05:26 PM] Typhlosion51#0101
+Sweet as
+I'm about to have dinner. But I shall complete the test case asap afterwards
+
+[04-Jun-20 05:28 PM] McGregor#3649
+oh yeah I just chucked down that you passed all of em
+
+[04-Jun-20 05:28 PM] McGregor#3649
+like if you got it working and all then you did so you know
+
+[04-Jun-20 05:39 PM] Typhlosion51#0101
+Oh ok nice
+
+[04-Jun-20 06:09 PM] Typhlosion51#0101
+@Silverfox Mind if I add the core and completion milestones to the readme?
+
+[04-Jun-20 09:35 PM] Silverfox#8518
+> @Silverfox Mind if I add the core and completion milestones to the readme?
+@Typhlosion51 Shit, sorry just saw this feel free to make any changes you want
+
+{Reactions}
+👍
+
+[08-Jun-20 01:21 PM] Typhlosion51#0101
+Has anyone done the core code, and would be able to help me? I'm quite stuck :/
+
+[09-Jun-20 11:29 AM] Typhlosion51#0101
+How's everyone going
+
+[09-Jun-20 05:22 PM] Silverfox#8518
+still struggling with core tbh
+
+[09-Jun-20 05:23 PM] Silverfox#8518
+did you manage to figure it out?
+
+[09-Jun-20 05:25 PM] Typhlosion51#0101
+No, I'm gonna have another go at it tonight
+
+[09-Jun-20 09:22 PM] Typhlosion51#0101
+Honestly still lost
+
+[10-Jun-20 12:43 PM] Typhlosion51#0101
+I'm gonna be focusing on project 3 today since our code will be looked at tomorrow - hoping that I'll be able to get it to work
+
+[10-Jun-20 03:54 PM] Typhlosion51#0101
+Hey guys, I've uploaded robot code that works for core.
+
+[10-Jun-20 03:55 PM] Typhlosion51#0101
+If you can improve it, please do
+
+[10-Jun-20 03:55 PM] McGregor#3649
+I'll take a peak
+
+[10-Jun-20 03:58 PM] McGregor#3649
+could you send the picel hpp aswell?
+
+[10-Jun-20 03:58 PM] McGregor#3649
+pixel.hpp*
+
+[10-Jun-20 03:58 PM] Typhlosion51#0101
+Oh whoops
+
+[10-Jun-20 03:58 PM] McGregor#3649
+lol
+
+[10-Jun-20 03:58 PM] Typhlosion51#0101
+I don't end up using pixel.hpp
+
+[10-Jun-20 03:58 PM] Typhlosion51#0101
+I'll take that import out
+
+[10-Jun-20 04:00 PM] Typhlosion51#0101
+It has been updated
+
+[10-Jun-20 04:01 PM] McGregor#3649
+oh oki doki
+
+[10-Jun-20 04:02 PM] Typhlosion51#0101
+Ah I should probably comment my code better
+
+[10-Jun-20 04:05 PM] McGregor#3649
+yeah it seems to work pretty well
+
+[10-Jun-20 04:07 PM] McGregor#3649
+I was trying to use HSV on mine but to be honest it probably isnt needed
+
+[10-Jun-20 04:08 PM] Silverfox#8518
+it looks really good
+
+[10-Jun-20 04:09 PM] Typhlosion51#0101
+Epic
+I haven't tested it on the completion maze yet
+
+[10-Jun-20 04:20 PM] McGregor#3649
+Im feeling a little daft right now
+
+[10-Jun-20 04:20 PM] McGregor#3649
+how do I change it to the completion file
+
+[10-Jun-20 04:21 PM] Typhlosion51#0101
+Uhhh I think you need to edit config.txt
+
+[10-Jun-20 04:21 PM] McGregor#3649
+oh ok ty 🙂
+
+[10-Jun-20 04:22 PM] McGregor#3649
+ah the completion has dead ends
+
+[10-Jun-20 04:22 PM] McGregor#3649
+and right angles
+
+[10-Jun-20 04:22 PM] Silverfox#8518
+yeah the tutor said we might need to add in a reverse feature
+
+[10-Jun-20 04:35 PM] McGregor#3649
+and the challenge doesn't have a white line
+
+[10-Jun-20 04:35 PM] McGregor#3649
+its a maze of the red walls
+
+[10-Jun-20 04:42 PM] Typhlosion51#0101
+Oh crap
+
+[10-Jun-20 06:12 PM] Typhlosion51#0101
+Does anyone want to be primarily in charge of writing the completion code?
+And shall we set dates for meetings?
+
+[10-Jun-20 06:23 PM] Silverfox#8518
+We can have a quick meeting tonight or tommorow
+
+[10-Jun-20 06:23 PM] Silverfox#8518
+whatever works best
+
+[10-Jun-20 06:24 PM] Typhlosion51#0101
+Btw can I get an update of any progress you're at so I can sneaky sneaky add a post to the GitHub wiki page? I assume that because I am project manager paper, I should write it up and that's fine by me
+Forgot we need a weekly report
+
+[10-Jun-20 06:24 PM] Silverfox#8518
+i'm working or core
+
+[10-Jun-20 06:24 PM] Silverfox#8518
+almost done but i just need a bit more help from tutors tommorow
+
+[10-Jun-20 06:25 PM] Typhlosion51#0101
+Alright
+Is there anything I could help with..?
+
+[10-Jun-20 06:27 PM] Silverfox#8518
+nah im pretty sweet for the moment, thanks though
+
+{Reactions}
+👍
+
+[10-Jun-20 07:03 PM] Typhlosion51#0101
+> We can have a quick meeting tonight or tommorow
+Tonight works for me btw if it works for everyone else
+
+[11-Jun-20 12:09 PM] Typhlosion51#0101
+It is probably a good idea to have a meeting today since our GitHub will be checked today
+
+Afternoon or evening? Which is better for ya'll?
+
+[11-Jun-20 12:46 PM] This PC#3017
+@Typhlosion51 where is the core code? All I see is robot.cpp in the Code folder and it seems to be that it has been edited back to just be the main function
+
+[11-Jun-20 12:50 PM] Typhlosion51#0101
+Yes, it's robot.cpp, it only has a main function
+It's very basic code
+
+[11-Jun-20 12:51 PM] This PC#3017
+But there was code before that could do Core right?
+
+[11-Jun-20 12:51 PM] This PC#3017
+I can’t view it
+
+[11-Jun-20 12:51 PM] Typhlosion51#0101
+No we weren't given code that could do core
+
+[11-Jun-20 12:52 PM] Typhlosion51#0101
+We were given code to make the robot drive in a straight line
+
+[11-Jun-20 12:52 PM] This PC#3017
+Yeah but I mean that you committed something for core
+
+[11-Jun-20 12:53 PM] Typhlosion51#0101
+Yep, the code I removed was redundant because I didn't use it
+
+[11-Jun-20 12:53 PM] Typhlosion51#0101
+I wrote the core code that I submitted to GitHub
+
+[11-Jun-20 12:53 PM] This PC#3017
+Wait so do we not yet have working core code or?
+
+[11-Jun-20 12:54 PM] Typhlosion51#0101
+Ah wait
+
+[11-Jun-20 12:54 PM] Typhlosion51#0101
+Crap you're right I committed the wrong file
+
+[11-Jun-20 12:54 PM] Typhlosion51#0101
+Sorry, just a sec
+
+[11-Jun-20 12:56 PM] Typhlosion51#0101
+Should be good now
+
+[11-Jun-20 12:57 PM] This PC#3017
+Ok so you weren’t using your isWhite function earlier?
+
+[11-Jun-20 01:06 PM] Typhlosion51#0101
+Nope, I just checked if luminosity is 255
+
+[11-Jun-20 01:06 PM] Typhlosion51#0101
+isWhite didn't use fewer lines
+
+[12-Jun-20 01:37 AM] This PC#3017
+Implemented my core code on a seperate branch. The code has been separated into methods and classes which we could extend later, and I also added the error checking that Arthur was lecturing about a while ago.
+
+[12-Jun-20 11:10 AM] Typhlosion51#0101
+Aight nice
+
+[13-Jun-20 10:24 AM] Typhlosion51#0101
+@This PC was your code uploaded to GitHub?
+
+[13-Jun-20 11:42 AM] This PC#3017
+Yep
+
+[13-Jun-20 11:44 AM] Typhlosion51#0101
+Ahh I'm blind I see it now
+
+[13-Jun-20 11:36 PM] This PC#3017
+Alright I have managed to get the robot through completion
+
+[13-Jun-20 11:43 PM] Typhlosion51#0101
+Oooh nice
+I'll have a look
+
+[13-Jun-20 11:43 PM] This PC#3017
+I haven’t committed yet
+
+{Reactions}
+👍
+
+[13-Jun-20 11:48 PM] This PC#3017
+Does anyone want to get started on this?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/714993347491790921/721330065995989042/image0.png
+
+[13-Jun-20 11:49 PM] This PC#3017
+Presumably this should be done with Geany since I’m guessing that’s what the markers are using
+
+[14-Jun-20 12:17 AM] Typhlosion51#0101
+If we don't have someone using Geany here, I'm willing to install it and figure it out
+
+[14-Jun-20 12:25 AM] McGregor#3649
+Im using geany with it
+
+[14-Jun-20 01:44 AM] Silverfox#8518
+Yeah ive got geany aswell
+
+[14-Jun-20 09:07 PM] Typhlosion51#0101
+Alright I'm gonna put a little update in our wiki and also update our readme (I should have done that earlier, sorry guys)
+@McGregor @Silverfox Do just one of you want to work on the guide, or both of you work together?
+@This PC Will you be working on challenge, do you want help with it? Also, I wasn't able to get the robot to go through completion on my machine. Was your final code pushed to GitHub?
+
+[14-Jun-20 09:22 PM] Silverfox#8518
+I can work on the install guide
+
+{Reactions}
+👍
+
+[14-Jun-20 10:05 PM] This PC#3017
+Yes it was working on my machine, and I will have a go at challenge
+
+[14-Jun-20 10:05 PM] This PC#3017
+Don’t think I need help at the moment
+
+[15-Jun-20 04:11 PM] Silverfox#8518
+Added some install instructions to the readme
+
+[15-Jun-20 04:13 PM] Silverfox#8518
+Also it says we need to have some discussion on the wiki
+
+[15-Jun-20 04:18 PM] Typhlosion51#0101
+I've put updates on the wiki, I've heard that it's sufficient, though do correct me if I'm wrong
+
+[15-Jun-20 04:18 PM] Silverfox#8518
+sounds good to me
+
+[15-Jun-20 04:18 PM] Silverfox#8518
+i wonder if we could take screenshots from the discord
+
+[15-Jun-20 04:18 PM] Silverfox#8518
+I might ask a tutor
+
+[15-Jun-20 04:48 PM] McGregor#3649
+yeah that would be optimal seeing as we've basically just been using discord lol
+
+[15-Jun-20 05:59 PM] McGregor#3649
+hey @This PC im trying to get your completion code working but I cant get the main_completiuon.cpp to work
+
+[15-Jun-20 06:00 PM] This PC#3017
+You’re using the other two classes right?
+
+[15-Jun-20 06:00 PM] McGregor#3649
+I believe so
+
+[15-Jun-20 06:00 PM] McGregor#3649
+I got everything off the github
+
+[15-Jun-20 06:00 PM] This PC#3017
+What is the problem? Is it a compilation error?
+
+[15-Jun-20 06:01 PM] McGregor#3649
+
+{Attachments}
+https://cdn.discordapp.com/attachments/714993347491790921/721967550040113182/unknown.png
+
+[15-Jun-20 06:01 PM] McGregor#3649
+i get this while trying to run it
+
+[15-Jun-20 06:02 PM] This PC#3017
+Hmm that’s strange
+
+[15-Jun-20 06:02 PM] This PC#3017
+@Typhlosion51 you still can’t get it to work either?
+
+[15-Jun-20 06:04 PM] Typhlosion51#0101
+Nah
+Do we need to rename main_completion.cpp as robot.cpp?
+
+[15-Jun-20 06:04 PM] This PC#3017
+Yea that could be the case
+
+[15-Jun-20 06:05 PM] Typhlosion51#0101
+Hmm I tried that too
+But the robot doesn't complete the maze. When it gets to the bottom-right of the maze, it doesn't stop and turn around at the dead end, it just drives off the line
+
+[15-Jun-20 06:06 PM] McGregor#3649
+yeah I just tried that , and for me it doesnt turn on the first corner
+
+[15-Jun-20 06:06 PM] This PC#3017
+Ok I will have a look at it later
+
+[15-Jun-20 06:30 PM] McGregor#3649
+ok so I just got it kinda working?
+
+[15-Jun-20 06:31 PM] McGregor#3649
+it spazzes out just before the end tho
+
+[15-Jun-20 06:32 PM] McGregor#3649
+also just wondering if this would be accepted, cause the robot snaps in place and tp's around a bunch when it comes to the corners
+
+[15-Jun-20 06:33 PM] This PC#3017
+I’ve made an alternative method that should not tp
+
+[15-Jun-20 06:33 PM] This PC#3017
+I was wondering about that too
+
+[15-Jun-20 06:33 PM] McGregor#3649
+oh ok cool
+
+[15-Jun-20 06:34 PM] This PC#3017
+Could you message a tutor or something about that?
+
+[15-Jun-20 06:34 PM] McGregor#3649
+yeah I'll do that
+
+[15-Jun-20 06:36 PM] This PC#3017
+It’s still doing everything on the client side. It’s just ramming up the motor to do it on a single server tick
+
+[15-Jun-20 06:37 PM] This PC#3017
+To travel that distance
+
+[15-Jun-20 06:45 PM] McGregor#3649
+k just sent out an email
+
+[15-Jun-20 06:46 PM] McGregor#3649
+I'll tell you when I get a response
+
+[15-Jun-20 07:00 PM] This PC#3017
+Ok I just made some more commits. Check if it works now?
+
+[15-Jun-20 07:08 PM] McGregor#3649
+I'll take a peek later tonight
+
+[15-Jun-20 08:12 PM] Typhlosion51#0101
+Completion isn't working for me -- the robot drives south and off the screen when it gets to the bottom right intersection
+
+[15-Jun-20 08:14 PM] This PC#3017
+Can you give a screenshot?
+
+[15-Jun-20 08:16 PM] Typhlosion51#0101
+
+{Attachments}
+https://cdn.discordapp.com/attachments/714993347491790921/722001566504321114/unknown.png
+
+[15-Jun-20 08:16 PM] Typhlosion51#0101
+Bottom of the screen
+
+[15-Jun-20 08:17 PM] Typhlosion51#0101
+It's acting like the first version of the refactor
+
+[15-Jun-20 08:21 PM] Typhlosion51#0101
+Hang on a min
+
+[15-Jun-20 08:26 PM] Typhlosion51#0101
+Alright I think I have the correct code running now. But the robot still does not complete the maze
+
+{Attachments}
+https://cdn.discordapp.com/attachments/714993347491790921/722004080410492938/unknown.png
+
+[15-Jun-20 11:44 PM] This PC#3017
+Ok I’ve been having issues with the get_pixel function for challenge in that sometimes it gives me the wrong RGB output. Can anyone try running RobotMovement-TEST.hpp along with the latest RobotView.hpp  and main_completion.cpp on the challenge maze? Just change .doCompletion() to .doChallenge() for the robot movement object in the while loop. If you manage to get it to run, do you get all “Has Red Pixels: 1” as your output in the console, or do you get occasional “Has Red Pixels: 0” as well?
+
+[16-Jun-20 12:06 AM] Typhlosion51#0101
+I'll try
+
+[16-Jun-20 12:16 AM] Typhlosion51#0101
+I get the occasional row has red pixels: 0
+
+[16-Jun-20 12:17 AM] This PC#3017
+Hmm ok
+
+[16-Jun-20 12:17 AM] This PC#3017
+I’ve already sent Arthur an email about this
+
+[16-Jun-20 12:18 AM] This PC#3017
+So does it print out row has red pixels: 0 even when the bottom of the robot’s camera has red?
+
+[16-Jun-20 12:18 AM] Typhlosion51#0101
+Yep
+
+[16-Jun-20 12:19 AM] Typhlosion51#0101
+By bottom row, you mean the row closest to the robot, correct?
+
+[16-Jun-20 12:19 AM] This PC#3017
+Yep
+
+[16-Jun-20 12:19 AM] Typhlosion51#0101
+Yea sometimes it prints out red pixels: 0
+
+[16-Jun-20 12:20 AM] This PC#3017
+Ok
+
+[16-Jun-20 12:21 AM] This PC#3017
+I was trying to make the robot detect whether or not it was at the edge of something by whether or not the bottom row has red pixels
+
+[16-Jun-20 12:21 AM] This PC#3017
+And it started giving false positives
+
+[16-Jun-20 12:22 AM] This PC#3017
+Now I’m guessing that this is an issue with the implementation of the code given
+
+[16-Jun-20 11:29 AM] Typhlosion51#0101
+Hey guys, do we need to go to the labs for anything?
+
+[16-Jun-20 04:37 PM] McGregor#3649
+
+{Attachments}
+https://cdn.discordapp.com/attachments/714993347491790921/722308891488157696/Screenshot_20200616-163729_Gmail.jpg
+
+[16-Jun-20 04:49 PM] McGregor#3649
+is the completion working rn?
+
+[16-Jun-20 04:49 PM] McGregor#3649
+gonna put up the q1 and 2 tests once it is
+
+[16-Jun-20 04:57 PM] This PC#3017
+Just hold on with the completion for now
+
+[16-Jun-20 04:58 PM] McGregor#3649
+oh ok
+
+[16-Jun-20 05:08 PM] Typhlosion51#0101
+Uhhh.
+Maybe put up q1 test
+
+And q2 test can show that it isn't working, but we are working to fix it...?
+
+[16-Jun-20 05:09 PM] McGregor#3649
+sweet
+
+[16-Jun-20 05:09 PM] McGregor#3649
+just wanna put more up on the git
+
+[16-Jun-20 05:09 PM] Typhlosion51#0101
+Yeah
+
+[16-Jun-20 05:09 PM] This PC#3017
+What are we doing about wiki discussion?
+
+[16-Jun-20 05:10 PM] Silverfox#8518
+we've got some stuff up on there
+
+[16-Jun-20 05:10 PM] Silverfox#8518
+ill email arthur see if we can add  discord screenshots
+
+[16-Jun-20 05:11 PM] This PC#3017
+I think you made a typo, it says I’m doing the install instructions
+
+[16-Jun-20 05:12 PM] Typhlosion51#0101
+Oops sorry
+I'll fix that in a minute
+
+[16-Jun-20 05:13 PM] Typhlosion51#0101
+Nm got mixed up
+
+[16-Jun-20 05:13 PM] McGregor#3649
+lmao I saw that 😆
+
+[16-Jun-20 05:13 PM] Typhlosion51#0101
+Shh
+
+[16-Jun-20 05:14 PM] McGregor#3649
+it'll be our secret
+
+[16-Jun-20 05:34 PM] Silverfox#8518
+Arthur said we can just copy paste from the discord
+
+[16-Jun-20 05:34 PM] Silverfox#8518
+into the wiki
+
+[16-Jun-20 05:38 PM] Typhlosion51#0101
+Ok I'm guessing that screenshots are fine then.
+I can start that process now
+
+[16-Jun-20 05:42 PM] Typhlosion51#0101
+Would anyone be opposed to using to using this to export the entire chat log? https://github.com/Tyrrrz/DiscordChatExporter
+
+{Embed}
+https://github.com/Tyrrrz/DiscordChatExporter
+Tyrrrz/DiscordChatExporter
+Exports Discord chat logs to a file. Contribute to Tyrrrz/DiscordChatExporter development by creating an account on GitHub.
+https://repository-images.githubusercontent.com/97034042/8c25d600-67a7-11e9-9eff-c5da4df5709d
+
+[16-Jun-20 05:54 PM] Silverfox#8518
+sounds good to me
+
+[16-Jun-20 06:06 PM] McGregor#3649
+^^^
+
+[16-Jun-20 06:29 PM] This PC#3017
+Alright I’ve made some new commits. Check if completion and challenge work.
+
+[16-Jun-20 06:29 PM] This PC#3017
+It will prompt you which task to do (core, completion or challenge) so make sure to type in the input in the console
+
+[16-Jun-20 06:30 PM] This PC#3017
+Arthur said to do that
+
+[16-Jun-20 06:31 PM] This PC#3017
+You should be using robot.cpp this time
+
+[16-Jun-20 07:03 PM] Typhlosion51#0101
+Yep they both work
+
+[16-Jun-20 07:03 PM] Typhlosion51#0101
+I'm taking screenshots to put on GitHub too
+
+[16-Jun-20 07:09 PM] This PC#3017
+Ok if it works, can someone merge the test branch back to the master branch
+
+[16-Jun-20 07:09 PM] Typhlosion51#0101
+Oof, how does that work? Pull request?
+
+[16-Jun-20 07:12 PM] Typhlosion51#0101
+Ok I think I did it
+
+[16-Jun-20 07:15 PM] Typhlosion51#0101
+@Silverfox can you add a bit at the end of the install guide on how to choose between running core, completion and challenge?
+
+[16-Jun-20 07:47 PM] Silverfox#8518
+Yeah sure
+
+==============================================================
+Exported 318 message(s)
+==============================================================
+
+
