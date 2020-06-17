@@ -37,9 +37,9 @@ GitHub: <https://github.com/JackHarrisson/ENGR-101-Project-3-Team-14>
 |      | Completion | 15 June  | Completion code | AB - In charge of Q2 code | 14/06 |
 |      |            |          |          | JU - Help debug & check report, plan meetings for following week | n/a |
 |      |            |          |          | MS - Checks code for Q1&2 enables robot to completes circuit, debug/fix if necessary | 14/06 |
-|      | Challenge  | 18 June  | Challenge code | AB - In charge of Q3 code | |
-|      |            |          |          | JU, MS, JH - help to test and debug | |
-|      | Write installation instructions    | 18 June  | Installation instructions | JH - Write robot install instructions for Geany IDE | |
+|      | Challenge  | 18 June  | Challenge code | AB - In charge of Q3 code | 16/06 |
+|      |            |          |          | JU, MS, JH - help to test and debug | 16/06 |
+|      | Write installation instructions    | 18 June  | Installation instructions | JH - Write robot install instructions for Geany IDE | 16/06 |
 
 ### Robot Installation Instructions
 
