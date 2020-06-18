@@ -11,7 +11,7 @@ Alek’s code is split up into multiple parts, as he has split the code up into 
 RobotMovement.hpp and RobotView.hpp. The RobotView.hpp gets the pixels that the robot sees, and the RobotMovement.hpp moves the robot.
 Alek’s code seems to be far more accurate than Jamie and the robot is able to move faster without swerving all over the white line 
 
-Both Jame and Aleks Robots were able to make it to the finish line making the Q1 tests a success
+Both Jamie and Aleks Robots were able to make it to the finish line making the Q1 tests a success
 
 
 Q2 test
@@ -31,3 +31,8 @@ and moves towards the bottom-right hand side of the screen
 
 So far the completion portion of the project is unsuccessful and we are working on fixing it up,
 I have also sent in an email to ask whether it is ok for the robot to be snapping in the direction it wants to go.
+
+I have tested the completion portion of the project and it is currently working as intended,
+the robot is able to make it all the way through the maze without stopping or deviating from the white line 
+this makes the q2 test a success.
+
