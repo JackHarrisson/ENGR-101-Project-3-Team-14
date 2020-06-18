@@ -36,3 +36,12 @@ I have tested the completion portion of the project and it is currently working 
 the robot is able to make it all the way through the maze without stopping or deviating from the white line 
 this makes the q2 test a success.
 
+Q3 test
+The challenge portion of the code has been completed and works by allowing the robot to follow 
+the left hand side of the red maze, so this time instead of following a white line the robot is trying 
+to navigate through a maze made out of red lines, which the robot cannot move through,
+
+Running the code, the robot is able to move through the full maze and make it to the 
+flag without breaking and does so at an acceptable speed, making the Q3 test a success.
+
+
